@@ -1,0 +1,180 @@
+body{
+    margin: 0px;
+
+    font-family: 'Cairo', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*Header*/
+.header{
+    height: 5em;
+    width: 100%;
+    background: #4BB814;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title{
+    font-size: 38px;
+    color: white;
+}
+
+/*BottomNavigationView*/
+.navigation{
+    height: 5em;
+    width: 100%;
+    background: #4BB814;
+
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-Opt{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+
+    text-decoration: black;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.material-icons.md-36{
+    font-size: 36px;
+    color: white;
+}
+
+.icon{
+    height: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.title{
+    height: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
+/*New Body*/
+.new-body{
+    width: auto;
+    height: 100%;
+    z-index: 1;
+
+    padding: 5.4em .4em;
+
+    color: #000;
+}
+
+
+/*New Body Elements*/
+.new-aditions{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 5px;
+}
+
+
+/*Articles*/
+.category{
+
+    display: flex;
+    flex-direction: row;
+
+    height: 100px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+/*Articles Images*/
+.category-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+
+    padding: .4em;
+}
+
+/*Articles Texts*/
+.category-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    line-height: 20px;
+
+    width: 70%;
+    padding-right: .4em;
+}
+
+.category-title{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 40%;
+    width: 100%;
+
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.category-descripton{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    height: 60%;
+    width: 100%;
+
+    font-size: 14px;
+    overflow: visible;
+}
